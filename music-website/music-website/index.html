@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musicify - Premium Streaming</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Musicify</div>
+        <nav>
+            <ul>
+                <li><a href="#" data-section="home"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#" data-section="browse"><i class="fa fa-search"></i> Browse</a></li>
+                <li><a href="#" data-section="library"><i class="fa fa-book"></i> Library</a></li>
+                <li><a href="#" data-section="about"><i class="fa fa-info-circle"></i> About Us</a></li>
+                <li><input type="text" placeholder="Search..." class="search-bar"></li>
+                <li class="profile">
+                    <div class="dropdown">
+                        <span><i class="fa fa-user"></i> Account</span>
+                        <div class="dropdown-content">
+                            <a href="#" data-section="library">My Playlist</a>
+                            <a href="#logout">Logout</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section id="home" class="page-section">
+        <div class="hero">
+            <h1>Your Music, Your Soul</h1>
+            <p>Experience the premium side of streaming.</p>
+        </div>
+
+        <div class="home-content">
+            <div class="features-section">
+                <h2>Why Choose Musicify?</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="fa fa-headphones-alt"></i>
+                        <h3>High Fidelity</h3>
+                        <p>Experience studio-quality audio with lossless streaming.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa fa-cloud-download-alt"></i>
+                        <h3>Offline Mode</h3>
+                        <p>Save your favorite tracks and listen without an internet connection.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa fa-users"></i>
+                        <h3>Shared Playlists</h3>
+                        <p>Collaborate on playlists with friends and family in real-time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="browse" class="page-section" style="display:none;">
+        <h2>Browse Categories</h2>
+        <div class="quick-access">
+            <div class="access-card"><i class="fa fa-chart-line"></i> Top Hits</div>
+            <div class="access-card"><i class="fa fa-bolt"></i> Trending</div>
+            <div class="access-card"><i class="fa fa-globe"></i> English Hits</div>
+            <div class="access-card"><i class="fa fa-music"></i> Regional</div>
+        </div>
+
+        <h2 style="margin-top: 40px;">Top Music Apps</h2>
+        <div class="quick-access">
+            <a href="https://www.spotify.com" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="access-card"><i class="fab fa-spotify" style="color: #1DB954;"></i> Spotify</div>
+            </a>
+            <a href="https://music.apple.com" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="access-card"><i class="fab fa-apple" style="color: #4a5568;"></i> Apple Music</div>
+            </a>
+            <a href="https://music.youtube.com" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="access-card"><i class="fab fa-youtube" style="color: #FF0000;"></i> YT Music</div>
+            </a>
+            <a href="https://music.amazon.com" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="access-card"><i class="fab fa-amazon" style="color: #00A8E1;"></i> Amazon Music</div>
+            </a>
+        </div>
+    </section>
+
+    <section id="library" class="page-section" style="display:none;">
+        <h2>Your Collections</h2>
+        <div class="quick-access">
+            <div class="access-card"><i class="fa fa-heart"></i> My Favorites</div>
+            <div class="access-card"><i class="fa fa-dumbbell"></i> Workout Mix</div>
+            <div class="access-card"><i class="fa fa-coffee"></i> Chill Vibes</div>
+        </div>
+
+        <h2 style="margin-top: 40px;">South Indian Collections</h2>
+        <div class="quick-access">
+            <a href="https://open.spotify.com/playlist/37i9dQZF1DX4Jp9S7vscO6" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="access-card">
+                    <i class="fa fa-music"></i>
+                    <p>Tamil Hits</p>
+                    <small style="display: block; color: #718096; margin-top: 8px;">Directors: A.R. Rahman, Anirudh</small>
+                </div>
+            </a>
+            <a href="https://open.spotify.com/playlist/37i9dQZF1DX76t6Sgh9uYp" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="access-card">
+                    <i class="fa fa-music"></i>
+                    <p>Telugu Melodies</p>
+                    <small style="display: block; color: #718096; margin-top: 8px;">Directors: M.M. Keeravani, Thaman S</small>
+                </div>
+            </a>
+            <a href="https://open.spotify.com/playlist/37i9dQZF1DX2pP6mXb9mXU" target="_blank" style="text-decoration: none; color: inherit;">
+                <div class="access-card">
+                    <i class="fa fa-music"></i>
+                    <p>Kannada Power</p>
+                    <small style="display: block; color: #718096; margin-top: 8px;">Directors: Arjun Janya, B. Ajaneesh</small>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="page-section" style="display:none;">
+        <div class="home-content">
+            <div class="grid-container">
+                <div class="quick-access">
+                    <div class="access-card"><p>190+ Countries Served</p></div>
+                    <div class="access-card"><p>24/7 Dedicated Support</p></div>
+                </div>
+            </div>
+
+            <div class="grid-container" style="margin-top: 40px;">
+                <h2>Our Makers</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <h3>Rudresh</h3>
+                        <p>Lead Architect</p>
+                    </div>
+                    <div class="team-member">
+                        <h3>Nithin TC</h3>
+                        <p>Product Manager</p>
+                    </div>
+                    <div class="team-member">
+                        <h3>Subhash</h3>
+                        <p>Backend Developer</p>
+                    </div>
+                    <div class="team-member">
+                        <h3>Sharath</h3>
+                        <p>UI/UX Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <div class="music-player">
+        <span>▶ Now Playing: Shape of You</span>
+    </div>
+
+    <footer>
+        <p>👑</p>
+    </footer>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
